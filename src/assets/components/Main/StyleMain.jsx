@@ -1,14 +1,12 @@
 import styled from "styled-components";
 
 export const StyleMain = styled.main`
-  
   width: 100vw;
   height: 30vh;
 `;
 
 export const Div1 = styled.div`
-  
-  height: 30vh;
+  height: 25vh;
   display: flex;
   background-color: #211921;
   padding-left: 4em;
@@ -29,29 +27,24 @@ export const Div3 = styled.div`
   display: flex;
   list-style: none;
   color: white;
-  font-size:2em;
+  font-size: 2em;
   height: 18vh;
   align-items: center;
- 
 `;
 export const ImgWarner = styled.img`
-    border: solid green;
-    width: 19vw;
-    height: 10vh;
-`
+  width: 19vw;
+  height: 10vh;
+`;
 
 export const Section = styled.section`
-    display: flex;
-    justify-content:space-evenly;
-    border: solid red;
-    width: 60vw;
-`
+  display: flex;
+  justify-content: space-evenly;
+
+  width: 60vw;
+`;
 
 export const SectionLogos = styled.section`
-    border: solid yellow;
-    width: 15vw;
-    display: flex;
-    justify-content:space-around;
-
-    
-`
+  width: 15vw;
+  display: flex;
+  justify-content: space-around;
+`;

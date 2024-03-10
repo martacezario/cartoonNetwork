@@ -31,17 +31,14 @@ function Main() {
         <S.ImgWarner src={Warner} alt="logo Warner Bros" />
 
         <S.Section>
-            <li>Sobre nós</li>
-            <li>Produtos</li>
-            <li>Personagens</li>
-       
+          <li>Sobre nós</li>
+          <li>Produtos</li>
+          <li>Personagens</li>
         </S.Section>
 
         <S.SectionLogos>
-
-            <img src={Github} alt="" />
-            <img src={Linkedin} alt="" />
-
+          <img src={Github} alt="" />
+          <img src={Linkedin} alt="" />
         </S.SectionLogos>
       </S.Div3>
     </S.StyleMain>
