@@ -1,19 +1,34 @@
 import React, { useState } from "react";
-
+import Proframacao from "../Programacao/Programacao.jsx";
 import Scooby from "./imagensMain/scooby.png";
 import Ben from "./imagensMain/ben10.png";
 import Frajola from "./imagensMain/frajola.png";
-import styled from "styled-components";
 import * as S from "./StyleMain.jsx";
+
+//utilizaremos o map, m+etodo que mapeia arrays ( percorre)
 import Gumball from "./imagensMain/gumball.png";
 import Meninas from "./imagensMain/meninas.png";
 import Tom from "./imagensMain/tom.png";
+
 import Warner from "./imagensMain/warner.png";
 import Github from "./imagensMain/github.png";
 import Linkedin from "./imagensMain/linkedin.png";
+import Programacao from "../Programacao/Programacao.jsx";
+
+
 
 function Main() {
+
+const[galeria, setGaleria] = useState([
+  Gumball,
+  Meninas,
+  Tom
+])
+
+
   return (
+
+    <main>
     <S.StyleMain>
       <S.Div1>
         <S.Img src={Scooby} alt="desenho animado scooby" />
@@ -22,9 +37,10 @@ function Main() {
       </S.Div1>
 
       <S.Div2>
-        <S.Img src={Gumball} alt="desenho animano gumball" />
-        <S.Img src={Meninas} alt="desenho animado meninas super poderosas" />
-        <S.Img src={Tom} alt="desenho animado Tom e Jerry" />
+        
+
+        {galeria.map( (item)=>(<img src={item} alt="" /> ) )}
+
       </S.Div2>
 
       <S.Div3>
@@ -41,7 +57,12 @@ function Main() {
           <img src={Linkedin} alt="" />
         </S.SectionLogos>
       </S.Div3>
+
+      
+
     </S.StyleMain>
+   
+    </main>
   );
 }
 

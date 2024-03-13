@@ -11,6 +11,7 @@ export const Div1 = styled.div`
   background-color: #211921;
   padding-left: 4em;
   justify-content: space-between;
+  align-items: center;
 `;
 export const Img = styled.img`
   width: 22vw;
@@ -21,6 +22,8 @@ export const Div2 = styled.div`
   background-color: #edd820;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  ;
 `;
 export const Div3 = styled.div`
   background-color: #211921;
@@ -28,7 +31,7 @@ export const Div3 = styled.div`
   list-style: none;
   color: white;
   font-size: 2em;
-  height: 18vh;
+  height: 25vh;
   align-items: center;
 `;
 export const ImgWarner = styled.img`
