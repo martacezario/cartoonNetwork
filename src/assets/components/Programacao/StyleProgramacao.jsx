@@ -11,7 +11,8 @@ export const Card = styled.div`
 
 
 export const SectionCard = styled.section`
-    
+    background-color:#464646;
     border: solid green;
     width: 50vw;
+    flex-wrap:wrap;
 `

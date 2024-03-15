@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+
 export const StyleMain = styled.main`
   width: 100vw;
   height: 30vh;

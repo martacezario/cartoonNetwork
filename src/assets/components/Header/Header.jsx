@@ -6,6 +6,7 @@ import Cn from "./imagensHeader/cartoon.png";
 import Jogos from "./imagensHeader/jogos.png";
 import Programacao from "./imagensHeader/programacao.png";
 
+
 function Header() {
   return (
     <S.StyleHeader>
@@ -14,7 +15,7 @@ function Header() {
       <S.Section>
         <S.Div>
           <img src={Jogos} alt="" />
-          <button>JOGAR</button>
+          <S.playbutton>PLAY</S.playbutton>
         </S.Div>
 
         <S.Div>

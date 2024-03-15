@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import Proframacao from "../Programacao/Programacao.jsx";
 import Scooby from "./imagensMain/scooby.png";
 import Ben from "./imagensMain/ben10.png";
 import Frajola from "./imagensMain/frajola.png";
 import * as S from "./StyleMain.jsx";
+
 
 //utilizaremos o map, m+etodo que mapeia arrays ( percorre)
 import Gumball from "./imagensMain/gumball.png";
@@ -17,7 +17,11 @@ import Programacao from "../Programacao/Programacao.jsx";
 
 
 
+
 function Main() {
+
+  
+
 
 const[galeria, setGaleria] = useState([
   Gumball,
@@ -29,11 +33,16 @@ const[galeria, setGaleria] = useState([
   return (
 
     <main>
+
+
+ 
     <S.StyleMain>
       <S.Div1>
+    
         <S.Img src={Scooby} alt="desenho animado scooby" />
         <S.Img src={Ben} alt="desenho animado ben 10" />
         <S.Img src={Frajola} alt="desenho animado frajola e piu piu" />
+        
       </S.Div1>
 
       <S.Div2>
